@@ -1,0 +1,14 @@
+.player1 {
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;
+    background-color: blue;
+
+}
+
+.player2 {
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;
+    background-color: white;
+}

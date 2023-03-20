@@ -1,0 +1,88 @@
+.Big-container {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  background-color: honeydew;
+}
+
+.container {
+  background-image: url('img/board2.avif');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-size: 530px 520px;
+  margin: auto;
+  height: 95vh;
+  width: 95.5vh;
+
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  width: 8.777vh;
+  height: 8.777vh;
+  font-size: 20px;
+  color: black;
+  font-size: 15px;
+  position: relative;
+
+}
+
+.dice1 img {
+  height: 20vh;
+  width: 20vh;
+  border-radius: 10px;
+}
+
+.dice2 img {
+  height: 20vh;
+  width: 20vh;
+  border-radius: 10px;
+}
+
+.dice-container1,
+.dice-container2 {
+  background-color: white;
+  border: 2px solid green;
+  height: 20vh;
+  width: 20vh;
+  border-radius: 12px;
+  margin-top: 250px;
+}
+
+.dice-container1 {
+  float: left;
+}
+
+.dice-container2 {
+  float: right;
+}
+
+#mybutton1 {
+  margin: auto;
+  border-radius: 5px;
+  background-color: black;
+  color: blue;
+  cursor: pointer;
+  width: 100%;
+  height: 30%;
+}
+
+#mybutton2 {
+  margin: auto;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  height: 30%;
+}
+.header{
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: red;
+  height: 40px;
+}
+
